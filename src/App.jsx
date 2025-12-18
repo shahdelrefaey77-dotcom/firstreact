@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/navbar";
 import Footer from "./Components/footer";
 
@@ -9,7 +9,7 @@ import Contact from "./pages/contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
 
       <Routes>
@@ -20,7 +20,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
